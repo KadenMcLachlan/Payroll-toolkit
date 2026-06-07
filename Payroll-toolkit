@@ -14,10 +14,10 @@ index.html
 cc_5.js
 
 let employees = [
-  { name: "John", hourlyRate: 20, hoursWorked: 38 },
-  { name: "Maria", hourlyRate: 25, hoursWorked: 45 },
-  { name: "David", hourlyRate: 18, hoursWorked: 42 },
-  { name: "Sarah", hourlyRate: 30, hoursWorked: 40 }
+  { name: "Mark", hourlyRate: 20, hoursWorked: 38 },
+  { name: "Susan", hourlyRate: 25, hoursWorked: 45 },
+  { name: "Bob", hourlyRate: 18, hoursWorked: 42 },
+  { name: "Lucy", hourlyRate: 30, hoursWorked: 40 }
 ];
 function calculateBasePay(rate, hours) {
   let regularHours = Math.min(hours, 40);
